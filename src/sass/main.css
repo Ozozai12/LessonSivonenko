@@ -10,6 +10,10 @@
   padding-right: 20px;
 }
 
+li {
+  list-style: none;
+}
+
 .main__skills {
   margin-bottom: 717px;
 }
@@ -18,10 +22,18 @@
   max-width: 124px;
   margin-left: auto;
   margin-right: auto;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  color: #000000;
 }
 
 .skills__name {
   margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #263238;
 }
 
 .skills__list {
@@ -42,6 +54,7 @@
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 30px;
+  color: #8F95A5;
 }
 
 .skills__button {
@@ -90,9 +103,25 @@
   position: relative;
   top: 609px;
   left: 456px;
+  padding-bottom: 32px 18px;
   min-width: 882px;
   min-height: 338px;
 }
 .listening__text {
+  margin-right: 114px;
   width: 324px;
+}
+
+.section {
+  display: flex;
+}
+
+.about__list {
+  display: flex;
+}
+
+.about__title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
 }/*# sourceMappingURL=main.css.map */
