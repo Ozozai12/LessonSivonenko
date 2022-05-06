@@ -1,15 +1,56 @@
-@charset "UTF-8";
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+
 .about {
+
+.container {
+  width: 1377px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.main__skills {
+  margin-bottom: 717px;
+}
+
+.skills__title {
+  max-width: 124px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.skills__name {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #263238;
+}
+
+.skills__list {
+
   display: flex;
   justify-content: space-between;
 }
 
+
 .about__container {
   width: 652px;
+
+.skills__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  color: #8F95A5;
+
 }
 
 .about__list {
@@ -49,8 +90,36 @@
   line-height: 1.5;
 }
 
+
 .about__text {
   margin: 0 0;
   font-size: 20px;
+
+.listening {
+  display: flex;
+  position: relative;
+  top: 609px;
+  left: 456px;
+  padding-bottom: 32px 18px;
+  min-width: 882px;
+  min-height: 338px;
+}
+.listening__text {
+  margin-right: 114px;
+  width: 324px;
+}
+
+.section {
+  display: flex;
+}
+
+.about__list {
+  display: flex;
+}
+
+.about__title {
+  font-weight: 600;
+  font-size: 48px;
+
   line-height: 1.5;
-}/*# sourceMappingURL=main.css.map */
+}
