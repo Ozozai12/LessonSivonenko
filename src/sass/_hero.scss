@@ -1,7 +1,14 @@
+h1{
+    margin: 0;
+    padding: 0;
+}
+
 .hero__title{
     font-size: 64px;
     line-height: 1.25;
     color: black;
+    font-family: 'Poppins', semi bold;
+    font-weight: 600;
 }
 .hero__text{
     color: #8F95A5;
@@ -14,4 +21,25 @@
     cursor: pointer;
     font-size: 36px;
     line-height: 1.5;
+}
+.top{
+    margin-top: 55px;
+}
+.hero__section{
+    display: flex;
+    margin-top: 55px;
+}
+.hero__section > img{
+    margin-left: auto;
+}
+.hero__wrapper{
+    position: relative;
+}
+.hero{
+    display: flex;
+    align-items: flex-end;
+    &__img{
+        margin-bottom: 28px;
+        margin-left: 34px;
+    }
 }
