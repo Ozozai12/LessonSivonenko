@@ -16,13 +16,14 @@ ul {
 
 .pricing {
     display: flex;
-    justify-content: center;
-    
-
+    justify-content: space-between;
 }
 
 .item {
-    max-width: 426px;
+    position: relative;
+    display: inline-block;
+    width: 426px;
+    height: 584px;
 }
 
 .item__title {
@@ -35,7 +36,7 @@ ul {
     color: #263238;
 }
 
-.item__meta {
+.item__descr {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -45,12 +46,30 @@ ul {
 }
 
 .item__price-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
     width: 260px;
     height: 45px;
+    border-radius: 5px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
     background-color: #EEEEEE;
-    align-items: center;
-    justify-content: center;
+    
 }
+
+.price {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
 
 
