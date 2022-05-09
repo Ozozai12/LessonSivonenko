@@ -1,34 +1,52 @@
 a{
     text-decoration: none;
-}
-.logo{
-    text-decoration: none;
+    display:inline-block;
 }
 ul{
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
 .logo{
+    text-decoration: none;
     font-size: 36px;
     line-height: 1.5;
     color: black;
+    font-family: 'Poppins';
 }
 .logo > span{
     color: #939393;
     font-size: 36px;
     line-height: 1.5;
+    display: inline-block;
+}
+.navigation{
+    display: flex;
+    align-items: baseline;
+    margin-right: auto;
+    margin-left: 228px;
+}
+.navigation__list{
+    display: flex;
+    align-items: baseline;
 }
 .navigation__item > a{
     font-size: 20px;
     line-height: 1.5;
     color: black;
+    font-family: 'Poppins';
+    font-weight: 500;
 }
+.navigation__item:not(:first-child){
+    margin-left: 50px;
+}
+
 .btn{
     font-size: 20px;
     line-height: 1.5;
     text-align: center;
-
+    font-family: 'Poppins';
     min-width: 312px;
     height: 70px;
     color: black;
@@ -36,4 +54,19 @@ ul{
     border-radius: 10px;
     border-color: black;
     cursor: pointer;
+
+    &--lets{
+        margin-left: auto;
+        margin-top: 5px;
+    }
+}
+.container {
+    width: 1377px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header{
+    display: flex;
+    align-items: center;
 }
