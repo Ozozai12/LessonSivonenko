@@ -1,0 +1,29 @@
+body {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.8;
+    color: $text-grey-color;
+}
+
+.container {
+    width: 1338px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section {
+    padding-bottom: 180px;
+}
+
+.title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    color: $text-ultrablack-color;
+
+    margin-bottom: 60px;
+}
