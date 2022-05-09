@@ -1,9 +1,20 @@
-h1,
-p{
-    margin: 0;
-    padding: 0;
-}
 
+.hero__section {
+    display: flex;
+
+    &>img {
+        margin-left: auto;
+    }
+}
+.hero__inner {
+    display: flex;
+    align-items: flex-end;
+
+    &--img {
+        margin-bottom: 28px;
+        margin-left: 34px;
+    }
+}
 .hero__title{
     font-size: 64px;
     line-height: 1.25;
@@ -29,30 +40,11 @@ p{
     text-align: center;
     font-family: 'Poppins';
     border-radius: 10px;
-    
-
 
     margin-top: 60px;
     padding: 23px 104px;
 }
-.top{
-    margin-top: 55px;
-}
-.hero__section{
-    display: flex;
-    margin-top: 55px;
-}
-.hero__section > img{
-    margin-left: auto;
-}
-.hero__wrapper{
-    position: relative;
-}
-.hero{
-    display: flex;
-    align-items: flex-end;
-    &__img{
-        margin-bottom: 28px;
-        margin-left: 34px;
-    }
-}
+
+
+
+
